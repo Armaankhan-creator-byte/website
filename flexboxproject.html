@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html:5>
+    <head>
+        <title>
+            flexboxproject
+        </title>
+    </head>
+    <style>
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .navbar{
+            width:100%;
+            height:100px;
+            background-image: url(gym\ girl.jpg);
+            display: flex;
+            padding:20px;
+            margin-left: 20px;
+            justify-content: center;
+            font-size:30px;
+            
+          
+
+
+        }
+       
+        .navbar a{
+            text-decoration: none;
+            padding:34px 13px;
+        }
+        .logo img {
+            display:flex;
+                left: 67px;
+                top: 20px;
+                position: absolute;
+            width:40px;
+            margin-top: 20px;
+            height: 40px;
+        align-items: flex-start;
+
+        }
+        #unique{
+            position:absolute;
+            left:60px;
+            top:90px;
+            color:white;
+        }
+        #unique:hover{
+    color: red;
+    font-size:larger;
+}
+.button{
+    display:flex;
+    justify-content: flex-end;
+    top:55px;
+    left:1250px;
+    position:absolute;
+    color: cornflowerblue;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button1{
+    display:flex;
+    justify-content: flex-end;
+    top:55px;
+    left:1370px;
+    position:absolute;
+    color: cornflowerblue;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button:hover{
+    
+    
+    color:red;
+    padding:10px 40px;
+    padding-left:20px;
+}
+.button1:hover{
+    color:red;
+    padding:10px 30px;
+    padding-left:20px;
+    
+}
+
+        
+       
+    </style>
+    <body>
+        <div class="container">
+        <nav class="navbar">
+            <div id="box1"><a href="#" >Home</a></div>
+            <div id="box2"><a href="#" >About us</a></div>
+            <div id="box3"><a href="#" >Contact us</a></div>
+            <div id="box4"><a href="#" >View</a></div>
+        </nav>
+        
+        
+        </div>
+        
+        <div class="logo">
+            <img src="artgallerylogo.jpg" alt="logo">
+          </div>
+        <div id="unique">Art Gallery</div>
+        <div class="button">Call us now</div>
+        <div class="button1">Email us </div>
+
+    </body>
+</html:5>
